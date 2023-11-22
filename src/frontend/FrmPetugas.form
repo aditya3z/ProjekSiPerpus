@@ -129,7 +129,7 @@
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar2"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -540,7 +540,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Algerian" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Menu Kategori Buku"/>
+        <Property name="text" type="java.lang.String" value="Menu PETUGAS"/>
       </Properties>
     </Component>
   </SubComponents>

@@ -51,7 +51,7 @@ public class FrmPetugas extends javax.swing.JFrame {
     }
     
     public void cari(String keyword){
-        String[] kolom = {"ID", "Nama", "Alamat", "Telepon", "Gender"};
+        String[] kolom = {"IdPetugas", "Nama", "Alamat", "Telepon", "Gender"};
         ArrayList<Petugas> list = new Petugas().search(keyword);
         Object rowData[] = new Object[5];
         
@@ -296,7 +296,7 @@ public class FrmPetugas extends javax.swing.JFrame {
         });
 
         jLabel9.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
-        jLabel9.setText("Menu Kategori Buku");
+        jLabel9.setText("Menu PETUGAS");
 
         jMenu1.setText("Menu");
 
@@ -474,6 +474,7 @@ public class FrmPetugas extends javax.swing.JFrame {
         rButtonLk.setActionCommand("Perempuan");
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtIdPetugasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdPetugasActionPerformed

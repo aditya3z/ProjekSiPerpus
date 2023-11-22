@@ -119,6 +119,7 @@ public class FrmPeminjaman extends javax.swing.JFrame {
         Quit = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
 
         tglKembali.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         tglKembali.addActionListener(new java.awt.event.ActionListener() {
@@ -317,6 +318,7 @@ public class FrmPeminjaman extends javax.swing.JFrame {
         jLabel14.setText("Keterangan");
 
         jMenuBar2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 255), new java.awt.Color(102, 102, 255), null, new java.awt.Color(153, 0, 255)));
+        jMenuBar2.setBorderPainted(false);
 
         jMenu1.setText("Menu");
 
@@ -547,6 +549,7 @@ public class FrmPeminjaman extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAngActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAngActionPerformed
